@@ -1,14 +1,14 @@
 /*
  * @Author: your name
  * @Date: 2020-04-03 13:41:47
- * @LastEditTime: 2020-04-03 13:45:36
+ * @LastEditTime: 2020-04-03 13:41:47
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \oa-ui\packages\tabs\index.js
  */
 // 导入组件
-import Tabs from './tabs'
-import TabPane from './tab-pane/index.js'
+import Tabs from './src/tabs'
+import TabPane from './src/tab-pane/index.js'
 
 // 存储组件列表
 const components = [
