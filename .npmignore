@@ -1,0 +1,28 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+#tests
+test
+coverage
+
+#build tools
+.travis.yml
+.jenkins.yml
+.codeclimate.yml
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+
+#editor settings
+.idea
+.editorconfig
+# 忽略目录
+examples/
+packages/
+public/
+ 
+# 忽略指定文件
+vue.config.js
+babel.config.js
+*.map
